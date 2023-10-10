@@ -16,7 +16,7 @@
         android:textSize="34sp" />
 
     <TextView
-        android:id="@+id/textoChat"
+        android:id="@+id/textoChatSecond"
         android:layout_width="353dp"
         android:layout_height="185dp"
         android:layout_gravity="center"
