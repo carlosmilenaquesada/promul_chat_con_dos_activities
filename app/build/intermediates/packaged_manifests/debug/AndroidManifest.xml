@@ -28,6 +28,10 @@
         android:testOnly="true"
         android:theme="@style/Theme.Promul_chat_con_dos_activities" >
         <activity
+            android:name="com.example.promul_chat_con_dos_activities.SecondActivity"
+            android:exported="false"
+            android:parentActivityName="com.example.promul_chat_con_dos_activities.MainActivity" />
+        <activity
             android:name="com.example.promul_chat_con_dos_activities.MainActivity"
             android:exported="true" >
             <intent-filter>

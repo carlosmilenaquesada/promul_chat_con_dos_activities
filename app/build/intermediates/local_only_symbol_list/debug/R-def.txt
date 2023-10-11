@@ -4,7 +4,16 @@ color black
 color white
 drawable ic_launcher_background
 drawable ic_launcher_foreground
+id botonEnviarMain
+id botonEnviarSecond
+id mensajeAEnviarPorMain
+id mensajeAEnviarPorSecond
+id textoChatMain
+id textoChatSecond
+id tituloMain
+id tituloSecond
 layout activity_main
+layout activity_second
 mipmap ic_launcher
 mipmap ic_launcher_round
 string app_name

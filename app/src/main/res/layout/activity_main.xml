@@ -33,7 +33,9 @@
         android:gravity="center|start|top"
         android:hint="Escriba aquí su texto"
         android:inputType="textMultiLine"
-        android:minHeight="48dp" />
+        android:minHeight="48dp"
+        android:textColorHint="#8D6E63"
+        android:autofillHints="" />
 
     <Button
         android:id="@+id/botonEnviarMain"
