@@ -4,6 +4,7 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
@@ -30,12 +31,11 @@ public class SecondActivity extends AppCompatActivity {
         textoChatSecond.setText(intent.getStringExtra(MainActivity.MENSAJE_DE_MAIN));
     }
 
-    public void enviarPorSecond(){
+    public void enviarPorSecond(View view){
         String mensaje = String.valueOf(mensajeAEnviarPorSecond.getText());
         Intent intent = new Intent(this, MainActivity.class);
         intent.putExtra(MENSAJE_DE_SECOND, mensaje);
         startActivity(intent);
-
     }
 }
 

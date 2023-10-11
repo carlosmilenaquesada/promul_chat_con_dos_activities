@@ -19,16 +19,18 @@ public class MainActivity extends AppCompatActivity {
 
     public static String MENSAJE_DE_MAIN = "com.example.promul_chat_con_dos_activities.MainActivity";
 
-    public int PETICION = 1;
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        Intent intent = getIntent();
+
         tituloMain = (TextView) findViewById(R.id.tituloMain);
         textoChatMain = (TextView) findViewById(R.id.textoChatMain);
         mensajeAEnviarPorMain = (EditText) findViewById(R.id.mensajeAEnviarPorMain);
         bontonEnviarMain = (Button) findViewById(R.id.botonEnviarMain);
+
+        textoChatMain.setText(intent.getStringExtra(SecondActivity.MENSAJE_DE_SECOND));
     }
 
     public void enviarPorMain(View view){
