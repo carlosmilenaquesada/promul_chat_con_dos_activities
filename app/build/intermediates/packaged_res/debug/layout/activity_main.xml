@@ -4,5 +4,46 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:onClick="enviarPorMain"
     android:orientation="vertical"
-    tools:context=".MainActivity"/>
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/tituloMain"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Pantalla Main"
+        android:textSize="34sp" />
+
+    <TextView
+        android:id="@+id/textoChatMain"
+        android:layout_width="353dp"
+        android:layout_height="185dp"
+        android:layout_gravity="center"
+        android:background="#D6BDBD"
+        android:gravity="center" />
+
+    <EditText
+        android:id="@+id/mensajeAEnviarPorMain"
+        android:layout_width="353dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:ems="10"
+        android:gravity="center|start|top"
+        android:hint="Escriba aquí su texto"
+        android:inputType="textMultiLine"
+        android:minHeight="48dp"
+        android:textColorHint="#8D6E63"
+        android:autofillHints="" />
+
+    <Button
+        android:id="@+id/botonEnviarMain"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:onClick="enviarPorMain"
+        android:text="Enviar" />
+
+</LinearLayout>

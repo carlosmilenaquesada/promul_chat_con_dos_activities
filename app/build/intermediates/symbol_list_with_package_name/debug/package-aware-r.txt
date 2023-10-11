@@ -3134,6 +3134,8 @@ id beginOnFirstDraw
 id beginning
 id bestChoice
 id blocking
+id botonEnviarMain
+id botonEnviarSecond
 id bottom
 id bounce
 id bounceBoth
@@ -3305,6 +3307,8 @@ id material_timepicker_ok_button
 id material_timepicker_view
 id material_value_index
 id matrix
+id mensajeAEnviarPorMain
+id mensajeAEnviarPorSecond
 id message
 id middle
 id mini
@@ -3496,10 +3500,14 @@ id textinput_helper_text
 id textinput_placeholder
 id textinput_prefix_text
 id textinput_suffix_text
+id textoChatMain
+id textoChatSecond
 id time
 id title
 id titleDividerNoCustom
 id title_template
+id tituloMain
+id tituloSecond
 id toggle
 id top
 id topPanel
@@ -3650,6 +3658,7 @@ layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
 layout activity_main
+layout activity_second
 layout custom_dialog
 layout design_bottom_navigation_item
 layout design_bottom_sheet_dialog

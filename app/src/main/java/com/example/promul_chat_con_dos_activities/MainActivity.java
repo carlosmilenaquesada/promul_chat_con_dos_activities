@@ -17,7 +17,7 @@ public class MainActivity extends AppCompatActivity {
     EditText mensajeAEnviarPorMain;
     Button bontonEnviarMain;
 
-    public String MENSAJE_DE_MAIN = "com.example.promul_chat_con_dos_activities.MainActivity";
+    public static String MENSAJE_DE_MAIN = "com.example.promul_chat_con_dos_activities.MainActivity";
 
     public int PETICION = 1;
 
@@ -29,13 +29,11 @@ public class MainActivity extends AppCompatActivity {
         textoChatMain = (TextView) findViewById(R.id.textoChatMain);
         mensajeAEnviarPorMain = (EditText) findViewById(R.id.mensajeAEnviarPorMain);
         bontonEnviarMain = (Button) findViewById(R.id.botonEnviarMain);
-
     }
-
 
     public void enviarPorMain(View view){
         String mensajeMain = String.valueOf(mensajeAEnviarPorMain.getText());
-        Intent intent = new Intent();
+        Intent intent = new Intent(this, SecondActivity.class);
         intent.putExtra(MENSAJE_DE_MAIN, mensajeMain);
         startActivity(intent);
     }
