@@ -64,10 +64,6 @@
         "source": "C:\\Users\\Administrador\\.gradle\\daemon\\8.0\\com.example.promul_chat_con_dos_activities.app-main-33:\\mipmap-xhdpi\\ic_launcher.webp"
     },
     {
-        "merged": "com.example.promul_chat_con_dos_activities.app-merged_res-31:/layout_activity_main.xml.flat",
-        "source": "com.example.promul_chat_con_dos_activities.app-main-33:/layout/activity_main.xml"
-    },
-    {
         "merged": "C:\\Users\\Administrador\\.gradle\\daemon\\8.0\\com.example.promul_chat_con_dos_activities.app-merged_res-31:\\layout_activity_second.xml.flat",
         "source": "C:\\Users\\Administrador\\.gradle\\daemon\\8.0\\com.example.promul_chat_con_dos_activities.app-main-33:\\layout\\activity_second.xml"
     },
